@@ -73,6 +73,10 @@
             "System.Data.SQLite.Core": {
               "target": "Package",
               "version": "[1.0.119, )"
+            },
+            "System.Diagnostics.PerformanceCounter": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

@@ -16,3 +16,4 @@ C:\dev\dart_flutter_bridge\indexer_lib\csharp_lib\obj\Release\net8.0\win-x64\ref
 C:\dev\dart_flutter_bridge\indexer_lib\csharp_lib\obj\Release\net8.0\win-x64\IndexerLibWrapper.pdb
 C:\dev\dart_flutter_bridge\indexer_lib\csharp_lib\obj\Release\net8.0\win-x64\IndexerLibWrapper.genruntimeconfig.cache
 C:\dev\dart_flutter_bridge\indexer_lib\csharp_lib\obj\Release\net8.0\win-x64\ref\IndexerLibWrapper.dll
+C:\dev\dart_flutter_bridge\indexer_lib\csharp_lib\obj\Release\net8.0\win-x64\IndexerLibWrapper.sourcelink.json
