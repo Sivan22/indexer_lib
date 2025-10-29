@@ -1,0 +1,8 @@
+C:\dev\dart_flutter_bridge\indexer_lib\csharp_lib\bin\Release\net8.0\win-x64\publish\IndexerLibWrapper.dll
+C:\dev\dart_flutter_bridge\indexer_lib\csharp_lib\bin\Release\net8.0\win-x64\publish\IndexerLibWrapper.pdb
+C:\dev\dart_flutter_bridge\indexer_lib\csharp_lib\bin\Release\net8.0\win-x64\publish\LICENSE
+C:\dev\dart_flutter_bridge\indexer_lib\csharp_lib\bin\Release\net8.0\win-x64\publish\pdfium.dll
+C:\dev\dart_flutter_bridge\indexer_lib\csharp_lib\bin\Release\net8.0\win-x64\publish\sni.dll
+C:\dev\dart_flutter_bridge\indexer_lib\csharp_lib\bin\Release\net8.0\win-x64\publish\SQLite.Interop.dll
+C:\dev\dart_flutter_bridge\indexer_lib\csharp_lib\bin\Release\net8.0\win-x64\publish\IndexerLib.pdb
+C:\dev\dart_flutter_bridge\indexer_lib\csharp_lib\bin\Release\net8.0\win-x64\publish\IndexerLib.dll.config

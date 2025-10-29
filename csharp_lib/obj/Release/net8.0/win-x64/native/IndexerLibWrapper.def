@@ -1,0 +1,7 @@
+EXPORTS
+   DotNetRuntimeDebugHeader DATA
+   indexer_create_index
+   indexer_search
+   indexer_get_doc_path
+   indexer_free_string
+   indexer_get_snippet
