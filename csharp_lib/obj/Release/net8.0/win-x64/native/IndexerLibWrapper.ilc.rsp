@@ -12,7 +12,6 @@ obj\Release\net8.0\win-x64\IndexerLibWrapper.dll
 -r:C:\Users\sivan22\.nuget\packages\system.diagnostics.eventlog\8.0.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 -r:C:\Users\sivan22\.nuget\packages\system.diagnostics.performancecounter\8.0.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
 -r:C:\Users\sivan22\.nuget\packages\system.security.cryptography.protecteddata\8.0.0\lib\net8.0\System.Security.Cryptography.ProtectedData.dll
--r:C:\dev\dart_flutter_bridge\Indexer\IndexerLib\bin\Release\IndexerLib.dll
 -r:C:\Users\sivan22\.nuget\packages\runtime.win-x64.microsoft.dotnet.ilcompiler\8.0.16\sdk\System.Private.CoreLib.dll
 -r:C:\Users\sivan22\.nuget\packages\runtime.win-x64.microsoft.dotnet.ilcompiler\8.0.16\sdk\System.Private.DisabledReflection.dll
 -r:C:\Users\sivan22\.nuget\packages\runtime.win-x64.microsoft.dotnet.ilcompiler\8.0.16\sdk\System.Private.Reflection.Execution.dll
