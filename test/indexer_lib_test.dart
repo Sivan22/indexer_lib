@@ -27,7 +27,7 @@ void main() {
 
     test('createIndex returns a value', () {
       // This will fail without proper setup, but should not crash
-      final result = indexer.createIndex('C:\\test', '.txt', memoryUsage: 1);
+      final result = indexer.createIndex('test_documents', '.txt', memoryUsage: 1);
       expect(result, isA<int>());
     });
   });

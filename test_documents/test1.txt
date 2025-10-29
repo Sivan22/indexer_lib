@@ -1,0 +1,2 @@
+This is a simple test file.
+It contains an example query for testing purposes.

@@ -39,11 +39,11 @@ class IndexerLib {
   IndexerLib() {
     // Load the C# DLL (Native AOT compiled)
     if (Platform.isWindows) {
-      _lib = DynamicLibrary.open('IndexerLibWrapper.dll');
+      _lib = DynamicLibrary.open('csharp_lib/bin/Release/net8.0/win-x64/publish/IndexerLibWrapper.dll');
     } else if (Platform.isLinux) {
-      _lib = DynamicLibrary.open('IndexerLibWrapper.so');
+      _lib = DynamicLibrary.open('csharp_lib/bin/Release/net8.0/linux-x64/publish/IndexerLibWrapper.so');
     } else if (Platform.isMacOS) {
-      _lib = DynamicLibrary.open('IndexerLibWrapper.dylib');
+      _lib = DynamicLibrary.open('csharp_lib/bin/Release/net8.0/osx-x64/publish/IndexerLibWrapper.dylib');
     } else {
       throw UnsupportedError('Platform not supported');
     }

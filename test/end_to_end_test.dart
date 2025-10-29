@@ -7,6 +7,15 @@ void main() {
     late IndexerLib indexer;
 
     setUp(() {
+      // Delete the database file before each test to ensure a clean state
+      final dbFile = File('C:/TextIndexer.db');
+      if (dbFile.existsSync()) {
+        dbFile.deleteSync();
+      }
+      final indexDir = Directory('test_index');
+      if (indexDir.existsSync()) {
+        indexDir.deleteSync(recursive: true);
+      }
       indexer = IndexerLib();
     });
 
@@ -14,11 +23,11 @@ void main() {
       print('\n=== End-to-End Test ===');
       
       // Step 1: Create index
-      print('Step 1: Creating index for C:\\test_documents...');
+      print('Step 1: Creating index for test_documents...');
       final createResult = indexer.createIndex(
-        'C:\\test_documents',
+        'test_documents',
         '.txt',
-        memoryUsage: 10,
+        memoryUsage: 10
       );
       
       print('Create index result: $createResult');
@@ -63,7 +72,7 @@ void main() {
       print('\n=== Testing Non-existent Search ===');
       
       // First ensure index exists
-      indexer.createIndex('C:\\test_documents', '.txt', memoryUsage: 10);
+      indexer.createIndex('test_documents', '.txt', memoryUsage: 10);
       
       // Search for term that doesn't exist
       final results = indexer.search('xyznonexistent', adjacency: 2);
@@ -76,7 +85,7 @@ void main() {
       print('\n=== Testing "test" Search ===');
       
       // First ensure index exists
-      indexer.createIndex('C:\\test_documents', '.txt', memoryUsage: 10);
+      indexer.createIndex('test_documents', '.txt', memoryUsage: 10);
       
       // Search for "test"
       final results = indexer.search('test', adjacency: 2);
