@@ -24,21 +24,18 @@ Before using the package, you must build the C# wrapper library:
 
 ### Windows
 ```bash
-cd indexer_lib
 .\build.bat
 ```
 
 ### Linux/macOS
 ```bash
-cd indexer_lib
 chmod +x build.sh
 ./build.sh
 ```
 
 The build script will:
-1. Build the original IndexerLib if not already built
-2. Compile the FFI wrapper with Native AOT
-3. Output the library to `csharp_lib/bin/Release/net8.0/{platform}/publish/`
+1. Compile the IndexerLib sources with the FFI wrapper using Native AOT
+2. Output the library to `csharp_lib/bin/Release/net8.0/{platform}/publish/`
 
 ## Getting Started
 

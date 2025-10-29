@@ -1,15 +1,7 @@
 @echo off
 echo Building IndexerLib C# Wrapper...
 
-REM First, build the original IndexerLib if not already built
-if not exist "..\Indexer\IndexerLib\bin\Release\IndexerLib.dll" (
-    echo Building original IndexerLib...
-    cd ..\Indexer
-    dotnet build IndexerLib.sln -c Release
-    cd ..\indexer_lib
-)
-
-REM Build the wrapper library
+REM Build the wrapper library (includes IndexerLib sources)
 cd csharp_lib
 dotnet publish -c Release -r win-x64 --self-contained
 

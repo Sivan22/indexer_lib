@@ -29,6 +29,13 @@ void main() {
       // This will fail without proper setup, but should not crash
       final result = indexer.createIndex('test_documents', '.txt', memoryUsage: 1);
       expect(result, isA<int>());
+    }    
+    );
+    test('search returns a list', () {
+      // This will fail without proper setup, but should not crash
+      final results = indexer.search('test', adjacency: 1, maxResults: 10);
+      expect(results, isA<List<SearchResult>>());
     });
+
   });
 }
